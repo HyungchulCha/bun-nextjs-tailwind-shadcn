@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 /* tailwind config util */
 const pxToRem = (px: number, base = 16) => `${px / base}rem`;
@@ -85,6 +86,10 @@ const config = {
         'under-tablet': { max: '767px' }, // @media (max-width: 767px)
         'under-mobile': { max: '359px' }, // @media (max-width: 359px)
       },
+      // exist fout
+      // fontFamily: {
+      //   sans: ['Pretendard', ...defaultTheme.fontFamily.sans],
+      // },
       fontSize: {
         ...tRange(1, 100).reduce((acc: any, px) => {
           acc[`${px}pxr`] = pxToRem(px);

@@ -2,6 +2,108 @@
 @tailwind components;
 @tailwind utilities;
 
+/* exist fout */
+/* @font-face {
+  font-family: 'Pretendard';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url('/font/Pretendard-Black.woff2') format('woff2'),
+    url('/font/Pretendard-Black.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url('/font/Pretendard-ExtraBold.woff2') format('woff2'),
+    url('/font/Pretendard-ExtraBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('/font/Pretendard-Bold.woff2') format('woff2'),
+    url('/font/Pretendard-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('/font/Pretendard-SemiBold.woff2') format('woff2'),
+    url('/font/Pretendard-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('/font/Pretendard-Medium.woff2') format('woff2'),
+    url('/font/Pretendard-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('/font/Pretendard-Regular.woff2') format('woff2'),
+    url('/font/Pretendard-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url('/font/Pretendard-Light.woff2') format('woff2'),
+    url('/font/Pretendard-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url('/font/Pretendard-ExtraLight.woff2') format('woff2'),
+    url('/font/Pretendard-ExtraLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url('/font/Pretendard-Thin.woff2') format('woff2'),
+    url('/font/Pretendard-Thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'NotoSansCJKKR';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/font/NotoSansCJKKR-Light.woff') format('woff'),
+    url('/font/NotoSansCJKKR-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NotoSansCJKKR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/font/NotoSansCJKKR-Regular.woff') format('woff'),
+    url('/font/NotoSansCJKKR-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NotoSansCJKKR';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/font/NotoSansCJKKR-Medium.woff') format('woff'),
+    url('/font/NotoSansCJKKR-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'NotoSansCJKKR';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/font/NotoSansCJKKR-Bold.woff') format('woff'),
+    url('/font/NotoSansCJKKR-Bold.woff2') format('woff2');
+} */
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -70,6 +172,10 @@
   * {
     @apply border-border;
   }
+  /* exist fout */
+  /* html {
+    font-family: 'pretendard';
+  } */
   body {
     @apply bg-background text-foreground;
   }

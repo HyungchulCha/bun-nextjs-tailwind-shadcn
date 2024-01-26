@@ -1,6 +1,6 @@
 import '@/style/reset.css';
 import '@/style/global.css';
-import { localfont } from '@/style/localfont';
+import { fontPretendard } from '@/style/fontPretendard';
 import { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
@@ -31,7 +31,8 @@ type Props = Readonly<{
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang='ko' className={localfont.className}>
+    <html lang='ko' className={fontPretendard.className}>
+      {/* <html lang='ko'> */}
       <body>{children}</body>
     </html>
   );

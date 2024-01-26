@@ -1,5 +1,5 @@
 import localFont from 'next/font/local';
-export const localfont = localFont({
+export const fontPretendard = localFont({
   src: [
     {
       path: '../asset/font/Pretendard-Black.woff2',
@@ -92,4 +92,6 @@ export const localfont = localFont({
       style: 'normal',
     },
   ],
+  // No need for global application
+  // variable: '--font-pretendard',
 });
